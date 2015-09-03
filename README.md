@@ -3,8 +3,8 @@ Converts MPS file to Scala/Prolog simplex DSL input.
 
 ## Usage
 1. Download [SoPlex](http://soplex.zib.de/).
-2. Select a MPS file from `check` directory. For example, select `afiro.mps`.
-3. Copy the MPS into `mps-to-dsl`.
+2. Select a MPS file from `soplex-2.2.0/check` directory. For example, select `afiro.mps`.
+3. Copy the MPS in `mps-to-dsl` directory.
 4. `python3 mps_to_dsl.py < afiro.mps`
 
 ### Scala DSL Output
